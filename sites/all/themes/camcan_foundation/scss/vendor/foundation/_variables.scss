@@ -57,6 +57,13 @@
 // $success-color: #43AC6A;
 // $warning-color: #f08a24;
 // $info-color: #a0d3e8;
+$primary-color: #d20716;
+$secondary-color: #e7e7e7;
+$alert-color: #f04124;
+$success-color: #43AC6A;
+$warning-color: #f08a24;
+$info-color: #a0d3e8;
+
 
 // We use these to make sure border radius matches unless we want it different.
 // $global-radius: 3px;
@@ -1125,7 +1132,7 @@
 // Background color for the top bar
 // $topbar-bg-color: #333;
 // $topbar-bg: $topbar-bg-color;
-$topbar-bg-color: pink;
+$topbar-bg-color: $primary-color;
 $topbar-bg: $topbar-bg-color;
 
 
@@ -1160,6 +1167,17 @@ $topbar-margin-bottom: 0;
 // $topbar-link-bg-active: $primary-color;
 // $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
 // $topbar-link-font-family: $body-font-family;
+$topbar-link-color: #fff;
+$topbar-link-color-hover: #fff;
+$topbar-link-color-active: #fff;
+$topbar-link-color-active-hover: #fff;
+$topbar-link-weight: normal;
+$topbar-link-font-size: rem-calc(13);
+$topbar-link-hover-lightness: -10%; // Darken by 10%
+$topbar-link-bg-hover: darken($primary-color, 10%)  ;
+$topbar-link-bg-active: $primary-color;
+$topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
+
 
 // $topbar-button-font-size: 0.75rem;
 
