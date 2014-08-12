@@ -41,6 +41,7 @@
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
+$body-bg: #f1f1f1;
 
 // We use this to control font-smoothing
 // $font-smoothing: antialiased;
@@ -1174,7 +1175,7 @@ $topbar-link-color-active-hover: #fff;
 $topbar-link-weight: normal;
 $topbar-link-font-size: rem-calc(13);
 $topbar-link-hover-lightness: -10%; // Darken by 10%
-$topbar-link-bg-hover: darken($primary-color, 10%)  ;
+$topbar-link-bg-hover: desaturate($primary-color, 20%)  ;
 $topbar-link-bg-active: $primary-color;
 $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
 

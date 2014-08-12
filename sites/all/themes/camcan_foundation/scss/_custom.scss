@@ -1,3 +1,21 @@
 .top-bar {
 	margin-bottom: 25px;
 }
+
+.node-custom-panel {
+  @include panel(
+	// Sets the panel background color. Default: $panel-pg
+    $bg:#fff,
+    // Sets the panel padding amount. Default: $panel-padding
+    $padding:35px,
+    // Sets the font color based on the darkness of the bg & resets header line-heights for panels. Default: $panel-header-adjust
+    $adjust:true
+  	);
+  min-height: 18em;
+  width: 45em;
+  margin-top: 1.25rem;
+  border-radius: 3px;
+  background: #FFFFFF;
+  -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+}
